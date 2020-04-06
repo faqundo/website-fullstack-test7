@@ -10,13 +10,55 @@
     <meta name="description" content="Source code generated using layoutit.com">
     <meta name="author" content="LayoutIt!">
 
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/navbar.css">
+    <link href="../public/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="../public/css/style.css">
+	<link rel="stylesheet" href="../public/css/navbar.css">
 
   </head>
   <body>
 
+	<!-- NAVBAR -->
+	<nav id="navbar">
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand" href="#">
+				<img src="../public/images/logo.jpg" alt="logo combi10" style="width:2em; height: 2em;">	Combi 10		
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+		  
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			  <ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+				  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Link</a>
+				</li>
+
+				<li class="nav-item">
+				  <a class="nav-link disabled" href="#">Disabled</a>
+				</li>
+			  </ul>
+			  
+			  <!-- Mi cuenta -->
+			  <form class="form-inline my-2 my-lg-0">
+				<li class="nav-item dropdown">
+				  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Menu
+				  </a>
+				  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="#">¿Como compro?</a>
+					<a class="dropdown-item" href="#">Another action</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="#">Something else here</a>
+				  </div>
+				</li>
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Mi Cuenta</button>
+			  </form>
+			</div>
+		  </nav>
+    </nav> 
     <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-12">
@@ -191,9 +233,9 @@
 	</div>
 </div>
 
-    <script src="vendor/jquery/jquery-3.4.1.min.js"></script>
-    <script src="vendor/popper/popper.min.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../public/vendor/jquery/jquery-3.4.1.min.js"></script>
+    <script src="../public/vendor/popper/popper.min.js"></script>
+	<script src="../public/vendor/bootstrap/js/bootstrap.min.js"></script>
 	<script src="scripts.js"></script>
   </body>
 </html>
